@@ -10,5 +10,6 @@ public class Test {
 		Scanner s = new Scanner(System.in);
 		String name = s.nextLine(); 
 		System.out.printf("Hello, My Lord %s." , name );
+		s.close();
 	}
 }
